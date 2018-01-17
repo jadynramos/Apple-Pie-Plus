@@ -13,6 +13,7 @@
 		3FEADF351E187F1D009ACF1C /* Apple_Pie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FEADF331E187F1D009ACF1C /* Apple_Pie.xcdatamodeld */; };
 		3FEADF371E187F1D009ACF1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEADF361E187F1D009ACF1C /* Assets.xcassets */; };
 		3FEADF3A1E187F1D009ACF1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEADF381E187F1D009ACF1C /* LaunchScreen.storyboard */; };
+		3FEADF442003FCD2009ACF1C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEADF432003FCD2009ACF1C /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3FEADF361E187F1D009ACF1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FEADF391E187F1D009ACF1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FEADF3B1E187F1E009ACF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEADF432003FCD2009ACF1C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3FEADF2C1E187F1D009ACF1C /* AppDelegate.swift */,
 				3FEADF2E1E187F1D009ACF1C /* ViewController.swift */,
 				3FEADF301E187F1D009ACF1C /* Main.storyboard */,
+				3FEADF432003FCD2009ACF1C /* Game.swift */,
 				3FEADF361E187F1D009ACF1C /* Assets.xcassets */,
 				3FEADF381E187F1D009ACF1C /* LaunchScreen.storyboard */,
 				3FEADF3B1E187F1E009ACF1C /* Info.plist */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEADF2F1E187F1D009ACF1C /* ViewController.swift in Sources */,
+				3FEADF442003FCD2009ACF1C /* Game.swift in Sources */,
 				3FEADF351E187F1D009ACF1C /* Apple_Pie.xcdatamodeld in Sources */,
 				3FEADF2D1E187F1D009ACF1C /* AppDelegate.swift in Sources */,
 			);
@@ -284,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jadyn-Ramos.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Jadyn-Ramos.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
